@@ -2,7 +2,7 @@
 
 A Claude Code skill that runs a structured PM resume review using a simulated panel of three reviewers: Recruiter, Hiring Manager, and CPO.
 
-Built for product managers targeting Staff, Director, or Group PM roles — especially at AI-focused, B2B SaaS, or technical companies.
+Built for product managers targeting any level — APM through VP. The review adapts to whatever role and companies you're targeting; "Staff PM" and "Director" are just examples. The reviewer criteria (outcomes vs. outputs, roadmap ownership, strategic scope) are PM-specific by design.
 
 ---
 
@@ -81,7 +81,7 @@ The `evals/` folder contains three test cases with fictional resumes across diff
 
 The skill's default voice for rewrites is outcome-first, active, and lean — no filler verbs, real metrics, sounds like a person not a job description.
 
-If you want to adjust the skill for a different role type (engineering, design, sales), edit `SKILL.md` and update the reviewer criteria to match that function's hiring lens.
+The review criteria are built around PM hiring. If you want to adapt it for a different function (engineering, design, sales, etc.), edit `SKILL.md` and replace the reviewer evaluation criteria to match that role's hiring lens.
 
 ---
 
